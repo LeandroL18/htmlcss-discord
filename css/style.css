@@ -1,0 +1,153 @@
+/* Stili generali */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-family:Helvetica, Arial, sans-serif;
+}
+
+.container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 150px;
+}
+
+/* Stili header */
+#sezione_principale{
+    color: white;
+    min-height:400px;
+    flex-wrap: wrap;
+    /* DEBUG */
+    background-image: url(../img/jumbo.png);
+    background-color: blue;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#logo{
+    margin-top: -90px;
+    padding: 5px;
+    width:15%;
+}
+#logo img{
+    width: 80%;
+}
+#nav{
+    margin-top: -90px;
+    padding: 5px;
+    text-align: center;
+    width: 50%;
+}
+nav li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#login{
+    margin-top: -90px;
+    padding: 5px;
+    text-align: center;
+    width: 15%;
+}
+#login button{
+    border-radius: 20px;
+    border: none;
+    padding: 9px;
+    font-weight:700;
+    font-size: 15px;
+}
+#cella_principale{
+    margin-top: -100px;
+    border: 2px dotted black;
+    width: 40%;
+    text-align: center;
+}
+#cella_principale p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+button:first-of-type{
+
+}
+button:last-of-type{
+    
+}
+
+/* Stili main */
+/* Stili sezioni centrali */
+.white{
+    background-color: white;
+}
+.grey{
+    background-color: rgb(197, 195, 195);
+}
+.black{
+    background-color: black;
+}
+
+.cella_celeste{
+    width: 30%;
+    height: 110px;
+    border: 2px dotted black;
+    background-color: rgb(71, 190, 254);
+}
+.cella_rosa{
+    width: 15%;
+    height: 110px;
+    border: 2px dotted black;
+    background-color: rgb(249, 187, 246);
+}
+
+/* Stili container enorme */
+#big_container{
+    min-height: 300px;
+}
+#cella_verde{
+    background-color: green;
+    width: 45%;
+    height: 260px;
+    border: 2px dotted black;
+}
+/* Fine stili container enorme  */
+
+/* Stili footer  */
+#cella_cipria{
+    margin-top: -0.5%;
+    width: 17%;
+    height: 135px;
+    border: 2px dotted black;
+    background-color: rgb(204, 118, 181);
+}
+.cella_acqua{
+    margin-top: -0.5%; 
+    width: 7%;
+    height: 135px;
+    border: 2px dotted rgb(255, 255, 255);
+    background-color:rgb(21, 200, 200);
+}
+
+#footer{
+    border-top: 1px solid white;
+    min-height: 70px;
+}
+#container_acqua{
+    width: 45%;
+    height: 40px;
+    display: flex;
+    background-color: aqua;
+    justify-content: space-between;
+    align-items: center;
+}
+#container_acqua *{
+    text-align: center;
+    width: 12%;
+    height: 20px;
+    border: 2px dotted rgb(0, 0, 0);
+    background-color:rgb(242, 150, 246);
+}
+
+
