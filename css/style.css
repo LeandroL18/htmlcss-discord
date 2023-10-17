@@ -13,7 +13,18 @@
     justify-content: center;
     align-items: center;
     display: flex;
-    min-height: 150px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.bottoni_accesso{
+    padding: 9px;
+    border-radius: 20px;
+    border: none;
+    font-size: 12px;
+    font-weight: 700;
 }
 
 /* Stili header */
@@ -27,38 +38,22 @@
     background-size:cover;
     background-repeat: no-repeat;
 }
-#logo{
-    margin-top: -90px;
-    padding: 5px;
-    width:15%;
-}
-#logo img{
-    width: 80%;
-}
-#nav{
-    margin-top: -90px;
-    padding: 5px;
-    text-align: center;
-    width: 50%;
-}
-nav li{
-    list-style-type: none;
-    display: inline;
-    margin-left: 15px;
-    margin-right: 15px;
-}
-#login{
+.celle_barra{
     margin-top: -90px;
     padding: 5px;
     text-align: center;
     width: 15%;
 }
-#login button{
-    border-radius: 20px;
-    border: none;
-    padding: 9px;
-    font-weight:700;
-    font-size: 15px;
+.celle_barra img{
+    width: 80%;
+}
+#nav{
+    width: 50%;
+}
+#nav li{
+    display: inline;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 #cella_principale{
     margin-top: -100px;
@@ -69,33 +64,30 @@ nav li{
     margin-top: 20px;
     margin-bottom: 20px;
 }
-button:first-of-type{
-    padding: 10px;
+#cella_principale button:first-of-type{
+    padding: 12px;
     border-radius: 20px;
     border: none;
+    font-size: 14px;
     font-weight: 700;
-    margin-right: 10px;
 }
-#apri{
-    padding: 10px;
+#cella_principale button:last-of-type{
+    padding: 12px;
+    font-size: 14px;
     border-radius: 20px;
     border: none;
     font-weight: 700;
     color: white;
     background-color: black;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 /* Stili main */
-/* Stili sezioni centrali */
 .white{
     background-color: white;
 }
 .grey{
-    background-color: rgb(197, 195, 195);
-}
-.black{
-    background-color: black;
+    background-color: rgb(223, 223, 223);
 }
 
 .cella_item{
@@ -106,69 +98,101 @@ button:first-of-type{
     width: 22%;
     padding: 25px;
 }
-
 #item1{
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
 }
 #item2{
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
 }
 #item3{
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
 }
 .cella_testo p{
     margin-top: 20px;
     font-size: 11px;
 }
+
 /* Stili container enorme */
-#big_container{
-    min-height: 300px;
+#big_cella{
+    width: 70%;
+    text-align: center;
+    padding: 30px;
 }
-#cella_verde{
-    background-color: green;
-    width: 45%;
-    height: 260px;
-    border: 2px dotted black;
+#big_cella p{
+    margin-top: 20px;
 }
-/* Fine stili container enorme  */
+#big_cella img{
+    width: 100%;
+    height: 100%;
+}
+#big_cella button{
+    margin-top: 20px;
+    padding: 12px;
+    border-radius: 20px;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(150, 153, 208);
+}
 
 /* Stili footer  */
-#cella_cipria{
-    margin-top: -0.5%;
+.black{
+    background-color: black;
+}
+#container_lingua{
+    align-items: flex-start;
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(150, 153, 208);;
+}
+#cella_lingua{
     width: 17%;
-    height: 135px;
-    border: 2px dotted black;
-    background-color: rgb(204, 118, 181);
+    color: white;
+    padding: 10px 0;
+    margin-top: 3%;
+    margin-right: 4%;
 }
-.cella_acqua{
-    margin-top: -0.5%; 
-    width: 7%;
-    height: 135px;
-    border: 2px dotted rgb(255, 255, 255);
-    background-color:rgb(21, 200, 200);
+#cella_lingua h3{
+    color: rgb(150, 153, 208);
+    margin-bottom: 20px;
+}
+#cella_lingua img{
+    width: 10%;
+}
+#cella_lingua div{
+    margin-top: 15px;
 }
 
-#footer{
-    border-top: 1px solid white;
-    min-height: 70px;
+.cella_lista{ 
+    margin-top: 3%;
+    width: 13%;
+    color: white;
+    padding: 10px;
+    margin-left: 1%;
 }
-#container_acqua{
-    width: 45%;
-    height: 40px;
-    display: flex;
-    background-color: aqua;
+ul span{
+    color: rgb(150, 153, 208);
+}
+.cella_lista li{
+    margin-top: 5px;
+
+}
+
+/* Stili barra di registrazione */
+#barra_registrazione{
+    width: 60%;
     justify-content: space-between;
-    align-items: center;
 }
-#container_acqua *{
-    text-align: center;
-    width: 12%;
-    height: 20px;
-    border: 2px dotted rgb(0, 0, 0);
-    background-color:rgb(242, 150, 246);
+#barra_registrazione div{
+    padding: 5px;
 }
-
-
+#barra_registrazione img{
+    width: 70%;
+}
+#barra_registrazione button{
+    color: white;
+    background-color: rgb(150, 153, 208);
+}
